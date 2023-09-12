@@ -1,0 +1,35 @@
+body {
+  font-family: arial,serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #80a6ed;
+  color: white;
+  padding: 15px;
+  width: 350px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+botton:hover {
+  background-color: #5073b4;
+}
+
+#view-tasks {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+
+#view-task:hover {
+  background-color: #c7c7c7;
+}
